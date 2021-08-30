@@ -1,0 +1,14 @@
+{
+  "name": "kire-landingpage",
+  "version": "1.0.0",
+  "description": "projeto para processo seletivo da kife",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Gutemberg de Oliveira Ribeiro",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^9.0.0"
+  }
+}

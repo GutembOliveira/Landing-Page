@@ -1,0 +1,288 @@
+html,body{
+    display: flex;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    height: 5%;
+    padding: 10px;
+}
+
+.navbar .nav-item{
+    font-family: "Poppins","Arial","Times New Roman";
+    font-weight: bold;
+    color: #eee;
+    margin:10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.conteudo{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("img/fundo1.jpg");
+    box-shadow:inset 0 0 0 2000px rgba(36, 75, 121, 0.507);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.conteudo .pacotes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 70%;
+    height: 80%;
+    margin-bottom: 2rem;
+    text-align: center;
+    color: #eee;
+    font-family: "Poppins","Arial","Times New Roman";
+
+}
+
+.pacotes button{
+    margin-top: 2rem;
+    width: 150px;
+    height: 50px;
+    background-color: transparent;
+    color: #eee;
+    border: 2px solid #eee;
+    font-family: "Poppins","Arial","Times New Roman";
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.pacotes button:hover{
+    background-color: rgb(51, 53, 53);
+}
+
+.destaques{
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    margin-top: 2.5rem;
+    width: 100%;
+    height: 60%;
+    padding: 2rem 1rem 5rem 1rem;
+    background-color: #222;
+    text-align: center;
+    color: #eee;
+}
+
+.destaques .descricao-destaques{
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+.destaques .card{
+    width: 16%;
+    height: 70%;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 0 20px 0 1.5rem;
+    text-align: left;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif,Arial, Helvetica, sans-serif;
+    background-size: cover;
+    background-position-x: center;    
+}
+
+.destaques .card p{
+    font-size: 0.8rem;
+    font-family: "Poppins","Arial","Times New Roman";
+    color: #eee;
+
+}
+
+.destaques :nth-child(2) {
+    background-image: url("img/destaque1.jpg");
+    box-shadow:inset 0 0 0 2000px rgba(36, 75, 121, 0.507);
+  }
+
+  .destaques :nth-child(3) {
+    background-image: url("img/destaque3.jpg");
+    box-shadow:inset 0 0 0 2000px rgba(36, 75, 121, 0.507);
+  }
+  .destaques :nth-child(4) {
+    background-image: url("img/destaque4.jpg");
+    box-shadow:inset 0 0 0 2000px rgba(36, 75, 121, 0.507);
+  }
+
+  .destaques :nth-child(5) {
+    background-image: url("img/destaque2.jpg");
+    box-shadow:inset 0 0 0 2000px rgba(36, 75, 121, 0.507);
+
+  }
+
+.destaques :hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.outros-servicos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70%;
+    background-color: #222;
+}
+
+.outros-servicos .servico{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    width: 30%;
+    height: 70%;
+    border-radius: 6px;
+    background-size: cover;
+    overflow: hidden;
+    margin: 2rem 10px 0 10px;
+    box-shadow:inset 0 0 0 2000px rgba(36, 75, 121, 0.507);
+    color: #eee;
+    font-family: 'Lato', sans-serif,Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.outros-servicos .servico1{
+    background-image: url("img/car.jpg");
+}
+
+.outros-servicos .servico2{
+    background-image: url("img/hotel.jpg");
+}
+.outros-servicos .servico3{
+    background-image: url("img/tour.jpg");
+}
+.servico button{
+    width: 40%;
+    height: 20%;
+    background-color: transparent;
+    border: 2px solid #eee;
+    color: #eee;
+    font-family: "Poppins","Arial","Times New Roman";
+    font-weight: bold;
+    font-size: 1.2rem;
+    margin:  0 1.2rem 0 1rem;
+}
+
+.servico button:hover{
+        background-color: rgb(51, 53, 53);
+}
+
+.servico button:active {
+    background: #757575;
+    -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+       -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+            box-shadow: inset 0px 0px 5px #c1c1c1;
+     outline: none;
+  }
+
+.background-img{
+    width: 100%;
+    height: 50%;
+    background-image: url("img/fundo2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+footer{
+width: 100%;
+height: 12%;
+background-color: cornflowerblue;
+text-align: center;
+color: #eee;
+margin-bottom: 0;
+}
+/*no need now*/
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+/*no need now*/
+ul li .fab{
+    margin: 0px 2px 0 2px;
+    color: black;
+    size: 10rem;
+}
+/*Slideshow Css*/
+.conteudo .pacotes .slider{
+    width: 100%;
+    height: 70%;
+    border: 1px solid chartreuse;
+    background: black;
+    
+}
+.slider .pacote{
+    width: 100%;
+    height: 100%;
+}
+.pacote{
+    text-align: left;
+
+}
+.pacote img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    opacity: 0.4;
+}
+.pacote p{
+    position: relative;
+    bottom: 320px;
+    left: 20px;
+    margin-top: 10px;
+    color: #eee;
+    font-family: "Poppins","Arial","Times New Roman";
+    font-weight: bold;
+}
+ .fade2,.fade{
+    display: none;
+}
+  /* The dots/bullets/indicators */
+  .dots{
+      margin-top: 0.5rem;
+  }
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+        background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
